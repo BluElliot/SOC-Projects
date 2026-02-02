@@ -38,4 +38,4 @@ investigation, and incident response workflows using enterprise-style tooling.
   - 6.2 Phishing Alert Triage
 
 - [Chapter 7 — Review & Reflection](#chapter-7--review--reflection)
-  - 7.1 Les
+  - 7.1 Lessons Learned
