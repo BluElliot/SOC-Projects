@@ -5,11 +5,11 @@ The lab simulates an enterprise environment with centralized monitoring, endpoin
 The uploaded pdf contains the complete walkthrough.
 
 **What Was Built**
-Virtualized Windows and Linux lab environment
-Active Directory domain simulating a corporate network
-Centralized log collection and correlation
-Endpoint telemetry using Windows auditing and Sysmon
-Dashboards, alerts, and reports for SOC workflows
+- Virtualized Windows and Linux lab environment
+- Active Directory domain simulating a corporate network
+- Centralized log collection and correlation
+- Endpoint telemetry using Windows auditing and Sysmon
+- Dashboards, alerts, and reports for SOC workflows
 
 **What Was Analyzed**
 - Reconnaissance activity
