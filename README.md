@@ -1,41 +1,28 @@
-# SOC Analyst Lab – End-to-End Detection & Incident Response
+SOC-focused home lab designed to apply and connect core concepts from Network and IT Security studies. 
 
-This project is a full SOC analyst lab simulating real-world attack detection,
-investigation, and incident response workflows using enterprise-style tooling.
+The lab simulates an enterprise environment with centralized monitoring, endpoint telemetry, and detection-driven analysis using Splunk.
 
-## Table of Contents
+The uploaded pdf contain the complete walkthrough.
 
-- [Chapter 1 — Project Analysis](chapter-01-project-analysis/)
-  - [1.1 Introduction](chapter-01-project-analysis/01-introduction.md)
-  - [1.2 Lab Objectives](chapter-01-project-analysis/02-lab-objectives.md)
-  - [1.3 Lab Scope](chapter-01-project-analysis/03-lab-scope.md)
-  - [1.4 Lab Topology](chapter-01-project-analysis/04-lab-topology.md)
+**What Was Built**
+Virtualized Windows and Linux lab environment
+Active Directory domain simulating a corporate network
+Centralized log collection and correlation
+Endpoint telemetry using Windows auditing and Sysmon
+Dashboards, alerts, and reports for SOC workflows
 
-- [Chapter 2 — Lab Foundations](#chapter-2--lab-foundations)
-  - 2.1 Host Preparation & Resources
-  - 2.2 Network Management & Hardening
-  - 2.3 Domain Configuration
-  - 2.4 Ubuntu Splunk Enterprise Installation
-  - 2.5 Lab Configuration Summary
+**What Was Analyzed**
+- Reconnaissance activity
+- Password spraying
+- Malware execution
+- Phishing alert triage
 
-- [Chapter 3 — Telemetry & Logging](#chapter-3--telemetry--logging)
-  - 3.1 Windows Auditing
-  - 3.2 Sysmon Deployment on Windows
-  - 3.3 Time Synchronization & Sanity Checks
-
-- [Chapter 4 — Centralized Monitoring](#chapter-4--centralized-monitoring)
-  - 4.1 Splunk Universal Forwarders
-  - 4.2 Splunk Fundamentals
-  - 4.3 Dashboards & Visualizations
-  - 4.4 Alerts & Reports
-
-- [Chapter 5 — Reconnaissance & Credential Attacks](#chapter-5--reconnaissance--credential-attacks)
-  - 5.1 Reconnaissance Techniques
-  - 5.2 Password Spray Attacks
-
-- [Chapter 6 — Malware & Phishing Detection](#chapter-6--malware--phishing-detection)
-  - 6.1 Malware Execution Detection
-  - 6.2 Phishing Alert Triage
-
-- [Chapter 7 — Review & Reflection](#chapter-7--review--reflection)
-  - 7.1 Lessons Learned
+**Tools & Technologies**
+- Splunk Enterprise (SIEM)
+- Windows Server & Windows clients
+- Active Directory
+- Sysmon
+- Windows Event Logging
+- Linux (Ubuntu)
+- Splunk Universal Forwarders
+- Virtualization & networking fundamentals (VMWare)
